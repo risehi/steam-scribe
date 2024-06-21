@@ -6,4 +6,4 @@ and `https://store.steampowered.com/api/appdetails?appids={appid}` endpoints.
 - **steam_fetcher.py** fetches app details for a appID from Steam API at `https://store.steampowered.com/api/appdetails?appids={appid}`  
 *note: Replace the {appid} placeholder in the URL with an actual appid; for instance, 70 corresponds to the original Half-Life.*
 - **job_manager.py** the main script, loads above mentioned scripts as modules, executes them to retrieve data, implements cooldowns, and ensures atomic saving of data into a file. It also handles loading previously saved file in case the execution was interrupted  
- *note:These scripts are intended to be executed on a remote headless Linux instance.*
+ *note: These scripts are intended to be executed on a remote headless Linux instance.*
